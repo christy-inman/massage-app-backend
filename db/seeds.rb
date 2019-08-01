@@ -27,3 +27,19 @@ Therapist.create(
         he offers rapid accupuncture as he kneads your tissues. 
         His massages are a nice experience until they aren't."
 )
+Client.create(
+    profile_picture: "http://www.daveallenphotography.com/gallery/l_smoky_mountains_sunset.jpg",
+    username: "adaWill",
+    first_name: "Adalia",
+    last_name: "Williams",
+    address: "1234 MyHome Street",
+    city: "The Clouds",
+    state: "CO",
+    zip_code: 80217,
+    phone_number: 612666
+)
+# Appointment.create(
+#     therapists_id: 1,
+#     clients_id: 1,
+#     date: 
+# )
